@@ -1,0 +1,1919 @@
+* {box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.background{
+    background-image: url("../images/header-bg.png") ;
+    background-size: cover;
+    position: relative;
+}
+
+.header-navbar a{
+    margin-right: 16px;
+    color: white;
+    text-align: center;
+      text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header-search-bar i{
+    color: white;
+    font-size: 25px;
+}
+.header-wrapper{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bg{
+    background-color: #303030;
+}
+
+.banner-text{
+    max-width: 650px;
+    margin-top: 35%;
+}
+.banner-text h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 30px;
+}
+.banner-text p{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+}
+.banner-text .btn{
+    color: white;
+    background-color: #e8631c;
+    border: none;
+    padding: 15px 50px; 
+    font-size: 20px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header */
+
+/* dance-tour */
+.Dance-tour-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Dance-tour-heading h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.Dance-tour-heading p{
+    color: white;
+    margin-bottom: 70px;
+    font-size: 30px;
+    width: 72%;
+}
+.Dance-tour-banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Dance-tour-banner1 h1{
+    color: white;
+    margin-top: 30px;
+} 
+.Dance-tour-banner1 p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 370px;
+}
+.Dance-tour-banner-bg{
+    background-color: #303030;
+}
+.Dance-tour-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.Dance-tour-background{
+    background-color: #e8631c;
+}
+/* dance-tour */
+
+/* pricing-detail */
+.pricing-detail-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.pricing-detail-heading h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.pricing-detail-heading p{
+    color: white;
+    margin-bottom: 70px;
+    font-size: 30px;
+    width: 72%;
+}
+.pricing-detail-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-detail-banner img{
+    padding: 70px 0;
+}
+.pricing-detail-banner h1{
+    color: white;
+
+} 
+.pricing-detail-banner p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    width: 370px;
+}
+.pricing-detail-banner-bg{
+    border-radius: 10px;
+    background-color: #e8631c;
+}
+.pricing-detail-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.pricing-detail-background{
+    background-color: #303030;
+}
+.pricing-detail-banner .btn{
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 15px 80px; 
+    margin-bottom: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* pricing-detail */
+
+/* amazind-dance */
+.amazing-dance-img{
+    width: 50%;
+}
+.amazing-dance-img img{
+    width: 100%;
+}
+.amazing-dance-text h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.amazing-dance-text p{
+    color: white;
+    width: 680px;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.amazing-dance-text .btn{
+    border-radius: 5px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 15px 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.amazing-dance-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amazing-dance-background{
+    background-color: #e8631c;
+}
+/* amazind-dance */
+
+/* best-dance */
+.best-dance-img{
+    width: 50%;
+}
+.best-dance-img img{
+    width: 100%;
+    height: 100%;
+}
+.best-dance-text h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.best-dance-text p{
+    color: white;
+    width: 780px;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.best-dance-text .btn{
+    border-radius: 5px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 15px 80px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.best-dance-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-dance-background{
+    background-color: #e8631c;
+}
+/* best-dance */
+
+/* Our Statistics */
+.our-statistics-heading{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+.our-statistics-heading h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.our-statistics-heading p{
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.our-statistics-text{
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.our-statistics-text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.our-statistics-text p{
+    font-size: 40px;
+}
+.our-statistics-text-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Our-Statistics-background{
+    background-color: #303030;
+}
+/* Our Statistics */
+
+/* banner */
+.banner-heading-bg{
+    background-image: url("../images/banner-img.png") ;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-heading-bg::after {
+    content: "";
+    background-size: contain;
+    background-color: #e8631c;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.7;
+}
+
+.banner-heading{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 600px 0;
+    color: white;
+}
+.banner-heading p{
+    max-width: 880px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.banner-heading h1{
+    font-size: 45px;
+}
+/* banner */
+
+/* SUBSCRIBE */
+.Subscribe-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.Subscribe-text h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.Subscribe-text p{
+    margin-bottom: 50px;
+    max-width: 890px;
+    font-size: 28px;
+}
+.Subscribe-form input{
+    border: none;
+    padding: 20px 300px 20px 30px;
+}
+.Subscribe-form .btn{
+    border-radius: 5px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 16px 60px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.Subscribe-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 150px 0;
+}
+.Subscribe-background{
+    background-color: #e8631c;
+}
+/* SUBSCRIBE */
+
+/* footer */
+
+.footer h1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.footer p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+    max-width: 450px;
+}
+.fa { 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+.fa-instagram {
+    background: white;
+}
+.fa-facebook {
+    background: white;
+    margin-left: 20px;
+  }
+ 
+.fa-whatsapp {
+    background-color: white;
+    margin-left: 20px;
+}
+.fa-twitter {
+    background-color: white;
+    margin-left: 20px;
+}
+.footer-text h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.footer-text ul{
+    padding: 0;
+}
+.footer-text ul li{
+    color: white;
+    list-style: none;
+    font-size: 25px;
+    line-height: 45px;
+}
+.footer-text{
+    margin-left: 50px;
+}
+.footer-text-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footer-background{
+    background-color: #303030;
+}
+  
+/* footer */
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+    .container{
+        max-width: 1150px;
+    }
+    /* header */
+    .header-navbar a{
+        margin-right: 12px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .background{
+        padding: auto;
+    }
+    .banner-text{
+        max-width: 500px;
+        margin-top: 30%;
+    }
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .banner-text p{
+        font-size: 25px;
+    }
+    .banner-text .btn{
+        padding: 10px 25px; 
+        font-size: 15px;
+    }
+    /* header */
+
+
+    /* Dance-tour */
+    .Dance-tour-heading h1{
+        margin-top: 70px;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .Dance-tour-heading p{
+        font-size: 20px;
+        width: 45%;
+    }
+    .Dance-tour-banner1 h1{
+        font-size: 20px;
+    } 
+    .Dance-tour-banner1 img{
+        width: 100%;
+    }
+    .Dance-tour-banner1 p{
+        margin-left: 50px;
+        font-size: 15px;
+        max-width: 200px;
+    }
+    .Dance-tour-banner-bg{
+        width: 80%;
+    }
+    .Dance-tour-wrapper{
+        padding-bottom: 70px;
+    }
+
+    /* Dance-tour */
+
+/* pricing-detail */
+.pricing-detail-heading h1{
+    margin-top: 70px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.pricing-detail-heading p{
+    margin-bottom: 60px;
+    font-size: 20px;
+    width: 45%;
+}
+.pricing-detail-banner img{
+    padding: 50px 0;
+}
+.pricing-detail-banner h1{
+    font-size: 20px;
+
+} 
+.pricing-detail-banner p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 320px;
+}
+.pricing-detail-banner-bg{
+    border-radius: 10px;
+    background-color: #e8631c;
+}
+.pricing-detail-wrapper{
+    padding-bottom: 80px;
+}
+.pricing-detail-banner .btn{
+    padding: 15px 60px; 
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+/* pricing-detail */
+
+
+/* amazind-dance */
+.amazing-dance-img{
+    width: 50%;
+}
+.amazing-dance-img img{
+    width: 100%;
+}
+.amazing-dance-text h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.amazing-dance-text p{
+    width: 350px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.amazing-dance-text .btn{
+    padding: 15px 50px;
+    font-size: 15px;
+}
+/* amazind-dance */
+
+
+/* best-dance */
+.best-dance-text h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.best-dance-text p{
+    width: 350px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.best-dance-text .btn{
+    padding: 15px 50px; 
+    font-size: 15px;
+}
+/* best-dance */
+
+
+/* Our Statistics */
+.our-statistics-heading{
+    padding: 100px 0;
+}
+.our-statistics-heading h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.our-statistics-heading p{
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.our-statistics-text{
+    padding-bottom: 100px;
+}
+.our-statistics-text h1{
+    font-size: 35px;
+}
+.our-statistics-text p{
+    font-size: 20px;
+}
+/* Our Statistics */
+
+
+/* banner */
+.banner-heading-bg::after {
+    content: "";
+    background-size: contain;
+    background-color: #e8631c;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.7;
+}
+
+.banner-heading{
+    padding: 350px 0;
+}
+.banner-heading p{
+    max-width: 500px;
+    font-size: 25px;
+}
+.banner-heading h1{
+    font-size: 35px;
+}
+/* banner */
+
+
+
+/* SUBSCRIBE */
+.Subscribe-text h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.Subscribe-text p{
+    margin-bottom: 50px;
+    max-width: 650px;
+    font-size: 20px;
+}
+.Subscribe-form input{
+    border: none;
+    padding: 15px 200px 15px 30px;
+}
+.Subscribe-form .btn{
+    padding: 15px 40px; 
+    font-size: 15px;
+}
+.Subscribe-wrapper{
+    padding: 100px 0;
+}
+/* SUBSCRIBE */
+
+
+
+/* footer */
+
+.footer h1{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.footer p{
+    margin-bottom: 30px;
+    font-size: 17px;
+    max-width: 300px;
+}
+.fa { 
+    padding: 7px;
+}
+.footer-text h1{
+    font-size: 25px;
+}
+.footer-text ul li{
+    font-size: 15px;
+    line-height: 32px;
+}
+.footer-text{
+    margin-left: 70px;
+}
+.footer-wrapper{
+    padding: 60px 0;
+}
+
+/* footer */
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .container{
+        max-width: 850px;
+    }
+    /* header */
+    .background{
+        padding: auto;
+    }
+    .header-navbar a{
+        margin-right: 8px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .banner-text{
+        max-width: 400px;
+        margin-top: 25%;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .banner-text p{
+        font-size: 18px;
+    }
+    .banner-text .btn{
+        padding: 10px 20px; 
+        font-size: 12px;
+    }
+    /* header */
+
+
+    /* Dance-tour */
+    .Dance-tour-heading h1{
+        margin-top: 60px;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .Dance-tour-heading p{
+        font-size: 18px;
+        width: 55%;
+    }
+    .Dance-tour-banner1 h1{
+        font-size: 15px;
+    } 
+    .Dance-tour-banner1 img{
+        width: 100%;
+    }
+    .Dance-tour-banner1 p{
+        font-size: 10px;
+        max-width: 140px;
+    }
+    .Dance-tour-banner-bg{
+        width: 80%;
+    }
+    .Dance-tour-wrapper{
+        padding-bottom: 60px;
+    }
+
+    /* Dance-tour */
+
+/* pricing-detail */
+.pricing-detail-heading h1{
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.pricing-detail-heading p{
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 45%;
+}
+.pricing-detail-banner img{
+    padding: 35px 0;
+}
+.pricing-detail-banner h1{
+    font-size: 15px;
+
+} 
+.pricing-detail-banner p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 250px;
+}
+.pricing-detail-wrapper{
+    padding-bottom: 60px;
+}
+.pricing-detail-banner .btn{
+    padding: 15px 50px; 
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+/* pricing-detail */
+
+
+/* amazind-dance */
+.amazing-dance-text h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.amazing-dance-text p{
+    width: 280px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.amazing-dance-text .btn{
+    padding: 12px 40px;
+    font-size: 12px;
+}
+/* amazind-dance */
+
+
+/* best-dance */
+.best-dance-text h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.best-dance-text p{
+    width: 280px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.best-dance-text .btn{
+    padding: 12px 40px; 
+    font-size: 12px;
+}
+/* best-dance */
+
+
+/* Our Statistics */
+.our-statistics-heading{
+    padding: 90px 0;
+}
+.our-statistics-heading h1{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.our-statistics-heading p{
+    font-size: 15px;
+    max-width: 400px;
+}
+
+.our-statistics-text{
+    padding-bottom: 90px;
+}
+.our-statistics-text h1{
+    font-size: 30px;
+}
+.our-statistics-text p{
+    font-size: 15px;
+}
+/* Our Statistics */
+
+
+/* banner */
+.banner-heading{
+    padding: 300px 0;
+}
+.banner-heading p{
+    max-width: 400px;
+    font-size: 20px;
+}
+.banner-heading h1{
+    font-size: 25px;
+}
+/* banner */
+
+
+
+/* SUBSCRIBE */
+.Subscribe-text h1{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.Subscribe-text p{
+    margin-bottom: 50px;
+    max-width: 400px;
+    font-size: 15px;
+}
+.Subscribe-form input{
+    border: none;
+    padding: 12px 150px 12px 20px;
+}
+.Subscribe-form .btn{
+    padding: 12px 30px; 
+    font-size: 12px;
+}
+.Subscribe-wrapper{
+    padding: 80px 0;
+}
+/* SUBSCRIBE */
+
+
+
+/* footer */
+
+.footer h1{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    max-width: 260px;
+}
+.fa { 
+    padding: 3px;
+}
+.footer-text h1{
+    font-size: 18px;
+}
+.footer-text ul li{
+    font-size: 12px;
+    line-height: 25px;
+}
+.footer-text{
+    margin-left: 80px;
+}
+.footer-wrapper{
+    padding: 50px 0;
+}
+
+/* footer */
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .container{
+        max-width: 650px;
+    }
+    /* header */
+    .background{
+        padding: auto;
+    }
+    .header-navbar a{
+        margin-right: 8px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .banner-text{
+        max-width: 300px;
+        margin-top: 20%;
+    }
+    .banner-text h1{
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    .banner-text .btn{
+        padding: 10px 18px; 
+        font-size: 10px;
+    }
+    /* header */
+
+
+    /* Dance-tour */
+    .Dance-tour-heading h1{
+        margin-top: 50px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .Dance-tour-heading p{
+        font-size: 15px;
+        width: 60%;
+    }
+    .Dance-tour-banner1 h1{
+        font-size: 12px;
+    } 
+    .Dance-tour-banner1 img{
+        width: 100%;
+    }
+    .Dance-tour-banner1 p{
+        margin-left: 20px;
+        font-size: 10px;
+        max-width: 140px;
+    }
+    .Dance-tour-banner-bg{
+        width: 80%;
+    }
+    .Dance-tour-wrapper{
+        padding-bottom: 50px;
+    }
+
+    /* Dance-tour */
+
+/* pricing-detail */
+.pricing-detail-heading h1{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.pricing-detail-heading p{
+    margin-bottom: 50px;
+    font-size: 12px;
+    width: 45%;
+}
+.pricing-detail-banner img{
+    padding: 30px 0;
+}
+.pricing-detail-banner h1{
+    font-size: 12px;
+
+} 
+.pricing-detail-banner p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    width: 200px;
+}
+.pricing-detail-wrapper{
+    padding-bottom: 50px;
+}
+.pricing-detail-banner .btn{
+    padding: 12px 40px; 
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+/* pricing-detail */
+
+
+/* amazing-dance */
+.amazing-dance-text h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.amazing-dance-text p{
+    width: 220px;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.amazing-dance-text .btn{
+    padding: 12px 30px;
+    font-size: 10px;
+}
+/* amazing-dance */
+
+
+/* best-dance */
+.best-dance-text h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.best-dance-text p{
+    width: 220px;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.best-dance-text .btn{
+    padding: 12px 30px; 
+    font-size: 10px;
+}
+/* best-dance */
+
+
+/* Our Statistics */
+.our-statistics-heading{
+    padding: 80px 0;
+}
+.our-statistics-heading h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.our-statistics-heading p{
+    font-size: 12px;
+    max-width: 320px;
+}
+
+.our-statistics-text{
+    padding-bottom: 80px;
+}
+.our-statistics-text h1{
+    font-size: 25px;
+}
+.our-statistics-text p{
+    font-size: 12px;
+}
+/* Our Statistics */
+
+
+/* banner */
+.banner-heading{
+    padding: 220px 0;
+}
+.banner-heading p{
+    max-width: 300px;
+    font-size: 15px;
+}
+.banner-heading h1{
+    font-size: 20px;
+}
+/* banner */
+
+
+
+/* SUBSCRIBE */
+.Subscribe-text h1{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.Subscribe-text p{
+    margin-bottom: 50px;
+    max-width: 300px;
+    font-size: 12px;
+}
+.Subscribe-form input{
+    padding: 10px 100px 10px 18px;
+}
+.Subscribe-form .btn{
+    padding: 12px 25px; 
+    font-size: 10px;
+}
+.Subscribe-wrapper{
+    padding: 80px 0;
+}
+/* SUBSCRIBE */
+
+
+
+/* footer */
+
+.footer h1{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.footer p{
+    margin-bottom: 30px;
+    font-size: 10px;
+    max-width: 180px;
+}
+.fa { 
+    padding: 3px;
+}
+.footer-text h1{
+    font-size: 15px;
+}
+.footer-text ul li{
+    font-size: 10px;
+    line-height: 22px;
+}
+.footer-text{
+    margin-left: 80px;
+}
+.footer-wrapper{
+    padding: 40px 0;
+}
+
+
+/* footer */
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .container{
+        max-width: 450px;
+    }
+    /* header */
+    .background{
+        padding: auto;
+    }
+    .header-navbar a{
+        margin-right: 5px;
+        font-size: 8px;
+        line-height: 15px;
+    }
+    
+    .banner-text{
+        max-width: 250px;
+        margin-top: 20%;
+        
+    }
+    .banner-text h1{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .banner-text p{
+        font-size: 12px;
+    }
+    .banner-text .btn{
+        padding: 10px 15px; 
+        font-size: 8px;
+    }
+    /* header */
+
+
+    /* Dance-tour */
+    .Dance-tour-heading h1{
+        font-size: 35px;
+    }
+    .Dance-tour-heading p{
+        font-size: 25px;
+        width: 100%;
+    }
+    .Dance-tour-banner1{
+        margin-bottom: 30px;
+    }
+    .Dance-tour-banner1 h1{
+        font-size: 30px;
+        margin-top: 30px;
+    } 
+    .Dance-tour-banner1 p{
+        font-size: 21px;
+        max-width: 650px;
+    }
+    
+    .Dance-tour-banner-bg{
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Dance-tour-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 80px;
+    }
+    /* Dance-tour */
+
+    /* pricing-detail */
+.pricing-detail-heading h1{
+    font-size: 35px;
+}
+.pricing-detail-heading p{
+    font-size: 25px;
+    width: 100%;
+}
+.pricing-detail-banner{
+    margin-bottom: 30px;
+}
+.pricing-detail-banner img{
+    padding: 70px 0;
+}
+.pricing-detail-banner h1{
+    font-size: 30px;
+    color: white;
+
+} 
+.pricing-detail-banner p{
+    font-size: 21px;
+    width: 370px;
+}
+.pricing-detail-banner-bg{
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-detail-wrapper{
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pricing-detail-banner .btn{    
+    font-size: 25px;
+}
+
+/* pricing-detail */
+
+/* amazind-dance */
+.amazing-dance-img{
+    display: none;
+}
+.amazing-dance-text{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.amazing-dance-text h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.amazing-dance-text p{
+    color: white;
+    width: 550px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.amazing-dance-text .btn{
+    padding: 15px 70px;
+    font-size: 18px;
+}
+/* amazind-dance */
+
+
+/* best-dance */
+.best-dance-img{
+    display: none;
+}
+.best-dance-text h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.best-dance-text p{
+    color: white;
+    width: 550px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.best-dance-text .btn{
+    padding: 15px 70px;
+    font-size: 18px;
+}
+.best-dance-text{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+/* best-dance */
+
+
+/* footer */
+
+.footer h1{
+    font-size: 25px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 15px;
+    max-width: 500px;
+}
+.fa { 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+.footer-text{
+    margin-top: 50px;
+}
+.footer-text h1{
+    font-size: 25px;
+}
+.footer-text ul{
+    padding: 0;
+}
+.footer-text ul li{
+    font-size: 15px;
+    line-height: 30px;
+}
+.footer-text-wrapper{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0;
+}
+/* footer */
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+
+    .container{
+        max-width: 350px;
+    }
+
+
+
+    /* header */
+
+
+.header-navbar a{
+    display: none;
+}
+
+.header-search-bar i{
+    display: none;
+}
+.header-wrapper{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bg{
+    padding: auto;
+    background-color: #303030;
+}
+
+.banner-text h1{
+    font-size: 25px;
+}
+.banner-text p{
+    max-width: 250px;
+    font-size: 12px;
+}
+.banner-text .btn{
+    padding: 12px 20px; 
+    font-size: 10px;
+}
+/* header */
+
+
+   /* Dance-tour */
+   .Dance-tour-heading h1{
+    font-size: 25px;
+}
+.Dance-tour-heading p{
+    font-size: 15px;
+    width: 85%;
+}
+.Dance-tour-banner1 h1{
+    font-size: 18px;
+    margin-top: 30px;
+} 
+.Dance-tour-banner1 p{
+    font-size: 12px;
+    max-width: 200px;
+}
+
+.Dance-tour-banner-bg{
+    width: 90%;
+    text-align: center;
+}
+.Dance-tour-wrapper{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+/* Dance-tour */
+
+/* pricing-detail */
+.pricing-detail-heading h1{
+font-size: 25px;
+}
+.pricing-detail-heading p{
+font-size: 15px;
+width: 85%;
+}
+.pricing-detail-banner{
+margin-bottom: 30px;
+}
+.pricing-detail-banner img{
+padding: 60px 130px;
+}
+.pricing-detail-banner h1{
+font-size: 20px;
+color: white;
+
+} 
+.pricing-detail-banner p{
+font-size: 15px;
+width: 200px;
+}
+.pricing-detail-banner-bg{
+width: 90%;
+}
+.pricing-detail-wrapper{
+padding-bottom: 60px;
+}
+.pricing-detail-banner .btn{    
+font-size: 15px;
+}
+
+/* pricing-detail */
+
+
+/* amazind-dance */
+.amazing-dance-img{
+    display: none;
+}
+.amazing-dance-text{
+    padding: 80px 0;
+}
+.amazing-dance-text h1{
+    font-size: 20px;
+}
+.amazing-dance-text p{
+    width: 280px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.amazing-dance-text .btn{
+    padding: 15px 40px;
+    font-size: 12px;
+}
+/* amazind-dance */
+
+
+/* best-dance */
+.best-dance-img{
+    display: none;
+}
+.best-dance-text h1{
+    font-size: 20px;
+}
+.best-dance-text p{
+    width: 280px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.best-dance-text .btn{
+    padding: 15px 40px;
+    font-size: 12px;
+}
+.best-dance-text{
+    padding: 80px 0;
+}
+/* best-dance */
+
+
+
+/* Our Statistics */
+.our-statistics-heading{
+    padding: 60px 0;
+}
+.our-statistics-heading h1{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.our-statistics-heading p{
+    font-size: 10px;
+    max-width: 250px;
+}
+
+.our-statistics-text{
+    padding-bottom: 60px;
+}
+.our-statistics-text h1{
+    font-size: 15px;
+}
+.our-statistics-text p{
+    font-size: 12px;
+}
+/* Our Statistics */
+
+
+/* banner */
+.banner-heading{
+    padding: 120px 0;
+}
+.banner-heading p{
+    max-width: 250px;
+    font-size: 12px;
+}
+.banner-heading h1{
+    font-size: 15px;
+}
+/* banner */
+
+
+
+/* SUBSCRIBE */
+.Subscribe-text h1{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.Subscribe-text p{
+    margin-bottom: 50px;
+    max-width: 300px;
+    font-size: 12px;
+}
+.Subscribe-form input{
+    padding: 8px 80px 8px 15px;
+}
+.Subscribe-form .btn{
+    margin-top: 20px;
+    padding: 12px 20px; 
+    font-size: 10px;
+}
+.Subscribe-wrapper{
+    padding: 60px 0;
+}
+/* SUBSCRIBE */
+
+
+/* footer */
+
+.footer h1{
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    margin-left: 20px;
+    font-size: 12px;
+    max-width: 300px;
+}
+.fa { 
+    padding: 8px;
+}
+.footer-text{
+    margin-top: 40px;
+}
+.footer-text h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.footer-text ul{
+    padding: 0;
+}
+.footer-text ul li{
+    font-size: 12px;
+    line-height: 25px;
+}
+.footer-text-wrapper{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0;
+}
+/* footer */
+
+
+
+
+}
+
+
+@media screen and (max-width: 320px){
+
+
+    .container{
+        max-width: 250px;
+    }
+
+
+     /* header */
+
+.header-navbar a{
+    display: none;
+}
+
+.header-search-bar i{
+    display: none;
+}
+.header-wrapper{
+    padding: 15px 0;
+}
+
+.banner-text h1{
+    font-size: 18px;
+}
+.banner-text p{
+    max-width: 200px;
+    font-size: 10px;
+}
+.banner-text .btn{
+    padding: 10px 18px; 
+    font-size: 8px;
+}
+/* header */
+
+
+   /* Dance-tour */
+   .Dance-tour-heading h1{
+    font-size: 20px;
+}
+.Dance-tour-heading p{
+    font-size: 12px;
+    width: 100%;
+}
+.Dance-tour-banner1 h1{
+    font-size: 12px;
+    margin-top: 30px;
+} 
+.Dance-tour-banner1 p{
+    font-size: 10px;
+    max-width: 150px;
+}
+
+.Dance-tour-banner-bg{
+    width: 100%;
+    text-align: center;
+}
+.Dance-tour-wrapper{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+/* Dance-tour */
+
+
+
+    /* pricing-detail */
+.pricing-detail-heading h1{
+    font-size: 20px;
+    }
+    .pricing-detail-heading p{
+    font-size: 12px;
+    width: 100%;
+    }
+    .pricing-detail-banner{
+    margin-bottom: 30px;
+    }
+    .pricing-detail-banner img{
+    padding: 35px 90px;
+    }
+    .pricing-detail-banner h1{
+    font-size: 12px;
+    
+    } 
+    .pricing-detail-banner p{
+    font-size: 10px;
+    width: 150px;
+    }
+    .pricing-detail-banner-bg{
+    width: 90%;
+    }
+    .pricing-detail-wrapper{
+    padding-bottom: 25px;
+    }
+    .pricing-detail-banner .btn{    
+    font-size: 8px;
+    }
+    
+    /* pricing-detail */
+
+
+
+    /* amazind-dance */
+.amazing-dance-img{
+    display: none;
+}
+.amazing-dance-text{
+    padding: 70px 0;
+}
+.amazing-dance-text h1{
+    font-size: 15px;
+}
+.amazing-dance-text p{
+    width: 250px;
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+.amazing-dance-text .btn{
+    padding: 12px 30px;
+    font-size: 10px;
+}
+/* amazind-dance */
+
+
+/* best-dance */
+.best-dance-img{
+    display: none;
+}
+.best-dance-text h1{
+    font-size: 15px;
+}
+.best-dance-text p{
+    width: 250px;
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+.best-dance-text .btn{
+    padding: 12px 30px;
+    font-size: 10px;
+}
+.best-dance-text{
+    padding: 70px 0;
+}
+/* best-dance */
+
+
+
+/* Our Statistics */
+.our-statistics-heading{
+    padding: 60px 0;
+}
+.our-statistics-heading h1{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.our-statistics-heading p{
+    font-size: 10px;
+    max-width: 250px;
+}
+
+.our-statistics-text{
+    padding-bottom: 60px;
+}
+.our-statistics-text h1{
+    font-size: 15px;
+}
+.our-statistics-text p{
+    font-size: 12px;
+}
+/* Our Statistics */
+
+
+/* banner */
+.banner-heading{
+    padding: 80px 0;
+}
+.banner-heading p{
+    max-width: 200px;
+    font-size: 10px;
+}
+.banner-heading h1{
+    font-size: 12px;
+}
+/* banner */
+
+
+
+/* SUBSCRIBE */
+.Subscribe-text h1{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.Subscribe-text p{
+    margin-bottom: 40px;
+    max-width: 200px;
+    font-size: 10px;
+}
+.Subscribe-form input{
+    padding: 8px 60px 8px 15px;
+    font-size: 10px;
+}
+.Subscribe-form .btn{
+    margin-top: 20px;
+    padding: 10px 20px; 
+    font-size: 10px;
+}
+.Subscribe-wrapper{
+    padding: 50px 0;
+}
+/* SUBSCRIBE */
+
+
+/* footer */
+
+.footer h1{
+    font-size: 15px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    margin-left: 15px;
+    font-size: 10px;
+    max-width: 250px;
+}
+.fa { 
+    padding: 6px;
+}
+.footer-text{
+    margin-top: 35px;
+}
+.footer-text h1{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.footer-text ul{
+    padding: 0;
+}
+.footer-text ul li{
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer-text-wrapper{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+/* footer */
+
+
+
+
+
+
+}
